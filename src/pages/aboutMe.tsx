@@ -8,7 +8,9 @@ const AboutMe: React.FC = () => {
     <div>
       <Header title={2} />
 
-      <h1 className="main-line">Sobre mim.</h1>
+      <div className="title-about-me">
+        <h1>Sobre mim.</h1>
+      </div>
 
       <div className="separation-line"></div>
 

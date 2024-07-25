@@ -2,6 +2,7 @@ import { Header } from "../components/header/header";
 import React from "react";
 import "./home.css";
 import { useNavigate } from "react-router-dom";
+import Credits from "../components/credits/credits";
 
 const Home: React.FC = () => {
   const navigate = useNavigate();
@@ -41,6 +42,10 @@ const Home: React.FC = () => {
           <label className="page-text">Contato</label>
         </div>
       </div>
+
+      <div className="gap-space"></div>
+
+      <Credits />
     </div>
   );
 };

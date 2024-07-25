@@ -80,3 +80,10 @@
   margin-top: 20px;
   width: 300px;
 }
+
+.gap-space{
+  margin-top: 30rem;
+  @media (max-width: 768px){
+    margin-top: 79rem;    
+  }
+}

@@ -4,7 +4,9 @@ import './credits.css';
 const Credits: React.FC = () => {
   return (
     <div className="credits">
+      <h2>
         Made by Leonardo Fonseca
+      </h2>
         <div className="credits-icons">
           <img
             src="../../public/Images/IG.png"
