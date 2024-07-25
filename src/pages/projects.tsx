@@ -12,11 +12,6 @@ const ProjectsPage: React.FC = () => {
     <div className="page">
       <Header title={3} />
 
-      <div className="language">
-        <img src="../../public/Images/EUA.png" alt="lgng" />
-        <img src="../../public/Images/BRA.png" alt="lgng" />
-      </div>
-
       <div className="title">
         <h1>Meus projetos.</h1>
       </div>

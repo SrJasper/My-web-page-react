@@ -14,7 +14,7 @@
   padding: 2rem 0 2rem 0;
   justify-content: space-around;
   align-items: center;
-  width: 57.19rem;
+  width: 59.19rem;
 
   @media (max-width: 768px) {
     width:100%;
