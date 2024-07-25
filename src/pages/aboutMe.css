@@ -1,0 +1,132 @@
+.pagina-sobre-mim{
+  color: green;
+}
+
+/* .main-line {
+  font-size: 80px;
+  white-space: nowrap;
+  padding: 5px;
+  color: #484848;
+  animation: slideIn 2s forwards;
+  font-family: "Enriqueta", sans-serif;
+  font-weight: lighter;
+} */
+
+@keyframes slideIn {
+  from {
+      transform: translateX(-10%);
+  }
+  to {
+      transform: translateX(0);
+  }
+}
+/* 
+.SM-bg {
+  position: relative; 
+  margin-top: 5%;
+  background-image: url('../../Images/cel.png');
+  background-size: 400px 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 710px;    
+  display: flex;
+  justify-content: center;
+} 
+
+.SM-text-field{
+  position: absolute; 
+  top: 18%;   
+  left: 15%;  
+  right: 15%; 
+  font-size: 19px;
+  hyphens: auto;
+}
+*/
+.SM-bg {
+  margin-top: 5%;
+  background-image: url('../../Images/cel.png');
+  background-size: 90vw 175vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 175vw;    
+  display: flex;
+  justify-content: center;
+} 
+.SM-text-field{
+margin-top: 18%;
+  margin-top: 18%;
+  margin-right: 15%;
+  margin-left: 15%;
+  font-size: 15px;
+  hyphens: auto;
+}
+
+.language{
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 4rem;
+  margin-right: 1.5rem;
+  color: green;
+}
+
+.language img{
+  border: 3px solid rgb(67, 67, 67);
+  height: 20px;
+  cursor: pointer;
+}
+
+.SM-texto{
+  color:rgb(200, 200, 200);
+  padding: 1%;
+  width: 95%;
+  text-align: justify;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.linguagens-texto{
+  font-size: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+
+.linguagens-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.linguagens-grid > * {
+  margin-bottom: -10px; /* Compensa a margem na parte inferior para os elementos filhos */
+}
+
+
+.linguagem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.lg-nome{
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.lg-img img{
+  height: 80px;
+  width: 80px;    
+}
+
+.force-down{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 470px;
+}
