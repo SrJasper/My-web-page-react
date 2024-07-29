@@ -63,6 +63,10 @@ const Header: React.FC<Props> = ({ title }) => {
         }
       }}
       ></button>
+      <div className="banner1"></div>
+      <div className="banner2"></div>
+      <div className="banner3"></div>
+      <div className="banner4"></div>
     </div>
   );
 };

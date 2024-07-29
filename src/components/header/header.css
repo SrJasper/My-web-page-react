@@ -87,7 +87,27 @@
 }
 
 .pt-button{
+  background-image: url('../../../assets/Images/EUA.png');
+  /* background-image: url('../../assets/images/EUA.png'); */
+  background-size: cover;
+}
+.banner1{
   background-image: url('../../../public/assets/Images/EUA.png');
+  /* background-image: url('../../assets/images/EUA.png'); */
+  background-size: cover;
+}
+.banner2{
+  background-image: url('../../../assets/Images/EUA.png');
+  /* background-image: url('../../assets/images/EUA.png'); */
+  background-size: cover;
+}
+.banner3{
+  background-image: url('../../public/assets/Images/EUA.png');
+  /* background-image: url('../../assets/images/EUA.png'); */
+  background-size: cover;
+}
+.banner4{
+  background-image: url('../../assets/Images/EUA.png');
   /* background-image: url('../../assets/images/EUA.png'); */
   background-size: cover;
 }
