@@ -17,34 +17,7 @@
   cursor: pointer;
 }
 
-.title{
-  display: flex;
-  width: 100%;
-  padding-top: 1rem;
-  flex-direction: column;
-  align-items: right;
-  animation: slideIn 2s forwards;
-}
 
-@keyframes slideIn {
-  from {
-      transform: translateX(-10%);
-  }
-  to {
-      transform: translateX(0);
-  }
-}
-
-.title h1{
-  height: 6rem;
-  font-size: 5rem;
-  font-weight: normal;
-  @media (max-width: 768px){
-    font-size: 2rem;
-    height: 2.2rem;
-    padding-left: .5rem;
-  }
-}
 
 .container-main-options{
   display: flex;

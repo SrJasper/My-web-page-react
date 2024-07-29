@@ -27,7 +27,7 @@ const LanguageController: React.FC<Prop> = ({
       <div className='language-options'>
 
         <button
-          className='en-button'
+          className='en-button-menu'
           onClick={() => {
             localStorage.setItem("lng", "en");
             handleClose()
@@ -38,7 +38,7 @@ const LanguageController: React.FC<Prop> = ({
       
 
         <button
-          className='pt-button'
+          className='pt-button-menu'
           onClick={() => {
             localStorage.setItem("lng", "pt");
             handleClose()

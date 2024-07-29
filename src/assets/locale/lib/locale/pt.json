@@ -15,7 +15,7 @@
 
     "projects-title": "Meus projetos.",
     "projects-text": "Explorando minha paixão pelo desenvolvimento, estou constantemente me esforçando para melhorar minhas habilidades. Confira meus projetos recentes para testemunhar meu compromisso em evoluir como desenvolvedor.",
-    "projects-text-2": "Clique no projeto que te interessar para acessá-lo!",
+    "projects-text-2": "Clique na imagem do projeto que te interessar para acessá-lo!",
 
     "stock-title": "Registro de ações",
     "stock-text": "Neste projeto, optei por aplicar as tecnologias mais modernas do mercado, utilizando TypeScript em todo o seu desenvolvimento. No lado do servidor, escolhi o framework NestJS, conhecido por sua escalabilidade e estrutura modularizada. Para a comunicação com o banco de dados, escolhi o Prisma, que oferece uma interface segura e prática. O banco de dados PostgreSQL foi selecionado por sua confiabilidade e desempenho. Quanto à hospedagem, optei por utilizar o serviço Neon para o banco de dados PostgreSQL. Para o front-end, usei a biblioteca React para me dar versatilidade e praticidade na estruturação das páginas.",

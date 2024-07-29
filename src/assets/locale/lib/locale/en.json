@@ -16,7 +16,7 @@
     
     "projects-title": "My projects.",
     "projects-text": "Exploring my passion for development, I constantly strive to improve my skills. Check out my recent projects to witness my commitment to evolving as a developer.",
-    "projects-text-2": "Click on the project that interests you to access it!",
+    "projects-text-2": "Click on the project's image that interests you to access it!",
 
     "stock-title": "Stock Manager",
     "stock-text": "In this project, I chose to apply the most modern technologies on the market, using TypeScript throughout its development. On the server side, I chose the NestJS framework, known for its scalability and modular structure. For communication with the database, I chose Prisma, which offers a secure and practical interface. The PostgreSQL database was selected for its reliability and performance. For hosting, I opted to use the Neon service for the PostgreSQL database. For the front end, I used the React library to provide versatility and practicality in structuring the pages.",

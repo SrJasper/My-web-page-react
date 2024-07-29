@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import "./projects.css";
 import { Header } from "../components/header/header";
 import Credits from "../components/credits/credits";
-import { t } from "i18next";
 import { useTranslation } from "react-i18next";
 
 const ProjectsPage: React.FC = () => {
@@ -17,9 +16,8 @@ const ProjectsPage: React.FC = () => {
   }, [language]);
 
   return (
-    <div className="page">
+    <div>
       <Header title={3} />
-
       <div className="title">
         <h1>{t("projects-title")}</h1>
       </div>
@@ -31,10 +29,12 @@ const ProjectsPage: React.FC = () => {
         <p> {t("projects-text-2")}</p>
       </div>
 
-      <div className="separation-line"></div>
+      <div className="separation-line-projects"></div>
 
       <div className="project-tab">
-        <img src="../../public/Images/stocks.png" alt="stck" />
+        <img 
+        onClick={() => {window.open("https://stock-front-react.vercel.app", "StockPage");}}
+        src="../../public/Images/stocks.png" alt="stck" />
         <div className="project-description">
           <h2>{t("stock-title")}</h2>
           <p>
@@ -46,13 +46,15 @@ const ProjectsPage: React.FC = () => {
       <div className="separation-line"></div>
 
       <div className="project-tab">
-        <img src="../../public/Images/store.png" alt="stre" />
+        <img 
+        onClick={() => {window.open("https://loja.leosstore.shop/listar/todos", "InventoryPage");}}
+        src="../../public/Images/store.png" alt="stre" />
         <div className="project-description">
           <h2>
-            {t("stock-title")}
+            {t("inventory-title")}
           </h2>
           <p>
-            {t("stock-text")}
+            {t("inventory-text")}
           </p>
         </div>
       </div>
@@ -60,8 +62,9 @@ const ProjectsPage: React.FC = () => {
       <div className="separation-line"></div>
 
       <div className="project-tab">
-        <img src="../../public/Images/task.png" alt="task" />
-
+        <img  
+        onClick={() => {window.open("https://leostaskmanager.netlify.app/", "TaskPage");}}
+        src="../../public/Images/task.png" alt="task" />
         <div className="project-description">
           <h2>
             {t("task-title")}
@@ -75,7 +78,9 @@ const ProjectsPage: React.FC = () => {
       <div className="separation-line"></div>
 
       <div className="project-tab">
-        <img src="../../public/Images/calc.png" alt="calc" />
+        <img  
+        onClick={() => {window.open("https://leoscalcproject.netlify.app/", "StockPage");}}
+        src="../../public/Images/calc.png" alt="calc" />
         <div className="project-description">
           <h2>
             {t("calc-title")}
@@ -89,8 +94,9 @@ const ProjectsPage: React.FC = () => {
       <div className="separation-line"></div>
 
       <div className="project-tab">
-        <img src="../../public/Images/jet.png" alt="jet" />
-
+        <img 
+        onClick={() => {window.open("https://github.com/SrJasper/Jet/releases/tag/JeT", "StockPage");}}
+        src="../../public/Images/jet.png" alt="jet" />
         <div className="project-description">
           <h2>
             JeT
