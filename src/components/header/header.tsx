@@ -37,7 +37,11 @@ const Header: React.FC<Props> = ({ title }) => {
 
   return (
     <div className="header">
+<<<<<<< HEAD
       <img className='header-img' src="../../../public/assets/images/profile-pic.png" alt="Profile" />
+=======
+      <img className='header-img' src="../../public/Images/profile-pic.png" alt="Profile" />
+>>>>>>> parent of 63c4f7c (fix: image build problems)
       
       <div className='header-options'>
         <h1 className={`${title === 1 ? 'green' : ''}`} onClick={goToMainPage}>
