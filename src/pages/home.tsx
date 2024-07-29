@@ -44,6 +44,11 @@ const Home: React.FC = () => {
         <h1>{t("home-title-three")}</h1>
       </div>
 
+      <div className="banner1"></div>
+      <div className="banner2"></div>
+      <div className="banner3"></div>
+      <div className="banner4"></div>
+
       <div className="container-main-options">
         <div>
           <img
