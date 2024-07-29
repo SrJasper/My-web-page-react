@@ -62,12 +62,26 @@
   height: 175vw;    
   display: flex;
   justify-content: center;
-
   @media (min-width: 768px) {
-    background-image: url('../../Images/monitor.png');
-    height: 175vw;    
+    background-image: none;
+    height: auto;
   }
-} 
+}
+
+.SM-bg p{
+  padding-top: 4.5rem;
+  color: rgb(217, 217, 217);
+  width: 18rem;  
+  text-align: justify;
+  @media (min-width: 768px) {
+    color: rgb(222, 222, 222);
+    color: #484848;
+    width: 59.19rem;
+    padding-top: 0rem;
+    font-size: 1.5rem;
+  }
+}
+
 .SM-text-field{
 margin-top: 18%;
   margin-top: 18%;

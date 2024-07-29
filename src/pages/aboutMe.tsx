@@ -23,14 +23,9 @@ const AboutMe: React.FC = () => {
       <div className="separation-line"></div>
 
       <div className="SM-bg">
-        <div className="SM-text-field">
-          <div id="texto-animado" className="SM-texto">
-            {/* <!-- TEXTOOOOO --> */}
-          </div>
-          <div id="texto2-animado" className="SM-texto">
-            {/* <!-- TEXTOOOOO --> */}
-          </div>
-        </div>
+        <p>
+          Sou Leonardo Fonseca, formado pela UNIFESP e apaixonado por tecnologia. Com uma abordagem focada e diligente, busco constantemente crescimento pessoal e profissional. Minha formação acadêmica e entusiasmo por tecnologia me permitem enfrentar desafios de forma eficaz e inovadora. Minhas principais habilidades são em NestJS, ReactJS, TypeScript e TDD, áreas nas quais me dedico a desenvolver soluções impactantes e de alta qualidade.
+        </p>
       </div>
 
       <div className="linguagens-texto">{t("language-text")}</div>
