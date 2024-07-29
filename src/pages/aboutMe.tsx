@@ -32,51 +32,51 @@ const AboutMe: React.FC = () => {
 
       <div className="linguagens-grid">
         <div className="linguagem">
-          <img src="../Images/ts-icon.png" alt="" />
+          <img src="../../../assets/images/ts-icon.png" alt="" />
           <h2>TypeScript</h2>
         </div>
         <div className="linguagem">
-          <img src="../Images/react-icon.png" alt="" />
+          <img src="../../../assets/images/react-icon.png" alt="" />
           <h2>React.JS</h2>
         </div>
         <div className="linguagem">
-          <img src="../Images/nest-icon.png" alt="" />
+          <img src="../../../assets/images/nest-icon.png" alt="" />
           <h2>NestJS</h2>
         </div>
         <div className="linguagem">
-          <img src="../Images/python-icon.png" alt="" />
+          <img src="../../../assets/images/python-icon.png" alt="" />
           <h2>Python</h2>
         </div>
         <div className="linguagem">
-          <img src="../Images/js-icon.png" alt="" />
+          <img src="../../../assets/images/js-icon.png" alt="" />
           <h2>JavaScript</h2>
         </div>
         <div className="linguagem">
-          <img src="../Images/html-icon.png" alt="" />
+          <img src="../../../assets/images/html-icon.png" alt="" />
           <h2>HTML</h2>
         </div>
         <div className="linguagem">
-          <img src="../Images/css-icon.png" alt="" />
+          <img src="../../../assets/images/css-icon.png" alt="" />
           <h2>CSS</h2>
         </div>
         <div className="linguagem">
-          <img src="../Images/nodejs-icon.png" alt="" />
+          <img src="../../../assets/images/nodejs-icon.png" alt="" />
           <h2>Node.JS</h2>
         </div>
         <div className="linguagem">
-          <img src="../Images/sql-icon.png" alt="" />
+          <img src="../../../assets/images/sql-icon.png" alt="" />
           <h2>MySQL</h2>
         </div>
         <div className="linguagem">
-          <img src="../Images/postgress-icon.png" alt="" />
+          <img src="../../../assets/images/postgress-icon.png" alt="" />
           <h2>PostgreSQL</h2>
         </div>
         <div className="linguagem">
-          <img src="../Images/mongo-icon.png" alt="" />
+          <img src="../../../assets/images/mongo-icon.png" alt="" />
           <h2>Mongo DB</h2>
         </div>
         <div className="linguagem">
-          <img src="../Images/prisma-icon.png" alt="" />
+          <img src="../../../assets/images/prisma-icon.png" alt="" />
           <h2>Prisma</h2>
         </div>
       </div>
