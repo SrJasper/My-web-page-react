@@ -30,6 +30,11 @@ const Home: React.FC = () => {
 
   return (
     <div>
+      <div className="title">
+        <h1>{t("home-title-one")}</h1>
+        <h1>{t("home-title-two")}</h1>
+        <h1>{t("home-title-three")}</h1>
+      </div>
       <Header title={1} />
       {cardLanguage && 
       <LanguageController
@@ -38,28 +43,28 @@ const Home: React.FC = () => {
         }}
       />}
 
-      <div className="title">
-        <h1>{t("home-title-one")}</h1>
-        <h1>{t("home-title-two")}</h1>
-        <h1>{t("home-title-three")}</h1>
-      </div>
+
+      <div className="banner1"></div>
+      <div className="banner2"></div>
+      <div className="banner3"></div>
+      <div className="banner4"></div>
 
       <div className="container-main-options">
         <div>
           <img
-            src="../../public/Images/guy-Icon.png"
+            src="../../public/assets/images/guy-Icon.png"
             alt=""
             className="page-image"
           />
           <label className="page-text">{t("about-me")}</label>
         </div>
         <div className="hover" onClick={goToProjectsPage}>
-          <img src="../../public/Images/pc.png" alt="" className="page-image" />
+          <img src="../../public/assets/images/pc.png" alt="" className="page-image" />
           <label className="page-text">{t("projects")}</label>
         </div>
         <div>
           <img
-            src="../../public/Images/Contact.png"
+            src="../../public/assets/images/Contact.png"
             alt=""
             className="page-image"
           />
