@@ -47,7 +47,7 @@ const Home: React.FC = () => {
       <div className="container-main-options">
         <div>
           <img
-            src="../../../public/assets/images/guy-Icon.png"
+            src="../../../assets/images/guy-Icon.png"
             // src="../../public/assets/images/guy-Icon.png"
             alt=""
             className="page-image"
@@ -55,12 +55,12 @@ const Home: React.FC = () => {
           <label className="page-text">{t("about-me")}</label>
         </div>
         <div className="hover" onClick={goToProjectsPage}>
-          <img src="../../../public/assets/images/pc.png" alt="" className="page-image" />
+          <img src="../../../assets/images/pc.png" alt="" className="page-image" />
           <label className="page-text">{t("projects")}</label>
         </div>
         <div>
           <img
-            src="../../../public/assets/images/Contact.png"
+            src="../../../assets/images/Contact.png"
             alt=""
             className="page-image"
           />

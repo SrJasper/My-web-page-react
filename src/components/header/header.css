@@ -81,13 +81,13 @@
 }
 
 .en-button{
-  background-image: url('../../../public/assets/images/BRA.png');
+  background-image: url('../../../assets/images/BRA.png');
   /* background-image: url('../../assets/images/BRA.png'); */
   background-size: cover;
 }
 
 .pt-button{
-  background-image: url('../../../public/assets/images/EUA.png');
+  background-image: url('../../../assets/images/EUA.png');
   /* background-image: url('../../assets/images/EUA.png'); */
   background-size: cover;
 }

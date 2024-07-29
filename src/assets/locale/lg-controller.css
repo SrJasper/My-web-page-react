@@ -11,7 +11,7 @@
   @media (max-width: 768px) {
     gap: 10rem;
     /* background-image: url('../../assets/images/back-language-mobile.png'); */
-    background-image: url('../../../public/assets/images/back-language-mobile.png');
+    background-image: url('../../../assets/images/back-language-mobile.png');
     background-position: center right -4.5rem;
     background-size: cover;
     opacity: 0.8; 
