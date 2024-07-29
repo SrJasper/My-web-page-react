@@ -3,13 +3,20 @@ import React, { useEffect } from "react";
 import "./home.css";
 import { useNavigate } from "react-router-dom";
 import Credits from "../components/credits/credits";
-import LanguageController from "../components/language/language-controller";
+import LanguageController from "../assets/locale/language-controller";
+import { useTranslation } from "react-i18next";
 
 const Home: React.FC = () => {
   const navigate = useNavigate();
   const goToProjectsPage = () => {
     navigate("/projects");
   };
+
+  let language = localStorage.getItem("lng") || "en";
+  const { t, i18n } = useTranslation();
+  useEffect(() => {
+    i18n.changeLanguage(language);
+  }, [language]);
 
   const [cardLanguage, setCardLanguage] = React.useState(true);
 
@@ -32,9 +39,9 @@ const Home: React.FC = () => {
       />}
 
       <div className="title">
-        <h1>Transformando linhas de</h1>
-        <h1>código em soluções</h1>
-        <h1>inovadoras e funcionais.</h1>
+        <h1>{t("home-title-one")}</h1>
+        <h1>{t("home-title-two")}</h1>
+        <h1>{t("home-title-three")}</h1>
       </div>
 
       <div className="container-main-options">
@@ -44,11 +51,11 @@ const Home: React.FC = () => {
             alt=""
             className="page-image"
           />
-          <label className="page-text">sobre mim</label>
+          <label className="page-text">{t("about-me")}</label>
         </div>
         <div className="hover" onClick={goToProjectsPage}>
           <img src="../../public/Images/pc.png" alt="" className="page-image" />
-          <label className="page-text">Projetos</label>
+          <label className="page-text">{t("projects")}</label>
         </div>
         <div>
           <img
@@ -56,7 +63,7 @@ const Home: React.FC = () => {
             alt=""
             className="page-image"
           />
-          <label className="page-text">Contato</label>
+          <label className="page-text">{t("contact")}</label>
         </div>
       </div>
 

@@ -1,0 +1,35 @@
+{
+  "translation": {
+    "home-page": "Página Inicial",
+    "change-language": "Trocar Idioma",
+    "about-me": "Sobre Mim",
+    "projects": "Projetos",
+    "contact": "Contato",
+
+    "credits": "Feito por Leonardo Fonseca",
+    "language-text": "Tecnologias em que desenvolvo.",
+
+    "home-title-one": "Transformando linhas de",
+    "home-title-two": "código em soluções",
+    "home-title-three": "inovadoras e funcionais",
+
+    "projects-title": "Meus projetos.",
+    "projects-text": "Explorando minha paixão pelo desenvolvimento, estou constantemente me esforçando para melhorar minhas habilidades. Confira meus projetos recentes para testemunhar meu compromisso em evoluir como desenvolvedor.",
+    "projects-text-2": "Clique no projeto que te interessar para acessá-lo!",
+
+    "stock-title": "Registro de ações",
+    "stock-text": "Neste projeto, optei por aplicar as tecnologias mais modernas do mercado, utilizando TypeScript em todo o seu desenvolvimento. No lado do servidor, escolhi o framework NestJS, conhecido por sua escalabilidade e estrutura modularizada. Para a comunicação com o banco de dados, escolhi o Prisma, que oferece uma interface segura e prática. O banco de dados PostgreSQL foi selecionado por sua confiabilidade e desempenho. Quanto à hospedagem, optei por utilizar o serviço Neon para o banco de dados PostgreSQL. Para o front-end, usei a biblioteca React para me dar versatilidade e praticidade na estruturação das páginas.",
+
+    "inventory-title": "Estoque",
+    "inventory-text": "No projeto de estoque, utilizei nodeJS, MySQL e hospedei, tanto o banco de dados quanto o próprio servidor, na AWS",
+
+    "task-title": "Organizador de Tarefas",
+    "task-text": "Desenvolvi um organizador de tarefas intuitivo e versátil, utilizando HTML, CSS e JavaScript. Os usuários podem gerenciar suas tarefas de forma eficiente, adicionando, removendo e marcando tarefas concluídas em uma interface amigável e funcional.",
+
+    "calc-title": "Calculadora",
+    "calc-text": "Criei uma calculadora funcional. Esta aplicação combina desenvolvimento HTML, CSS e lógica JavaScript, demonstrando meu domínio das tecnologias web. Explore a simplicidade e eficiência desta calculadora desenvolvida com paixão e habilidade.",
+
+    "jet-text": "Conheça o JeT: um aplicativo Python criado para simplificar a organização de jogos entre amigos. Com apenas alguns cliques, o aplicativo distribui os participantes em equipes de forma aleatória, formando as equipes automaticamente."
+  
+  }
+}

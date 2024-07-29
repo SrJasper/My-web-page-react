@@ -3,6 +3,7 @@ import Home from "./pages/home";
 import "./index.css";
 import AboutMe from "./pages/aboutMe";
 import ProjectsPage from "./pages/projects";
+import '../src/assets/locale/lib/i18n';
 
 function App() {
   return (

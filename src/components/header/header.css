@@ -19,7 +19,7 @@
   @media (max-width: 768px) {
     width:100%;
     padding: 1rem 0 0 0;
-    gap: 2rem;
+    gap: 3rem;
     justify-content: center;
   }
 }
@@ -31,7 +31,7 @@
   gap: 2.5rem;
   @media (max-width: 768px) {
     width: auto;
-    gap: 2rem;
+    gap: .5rem;
   }
 }
 
@@ -58,4 +58,34 @@
   margin: 2%;
   width: 30px;
   height: 30px;
+}
+
+.language-button{
+  position: fixed;
+  z-index: 3;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.2rem;
+  
+  width: 8.09rem;
+  height: 5rem;
+
+  border: none;
+  @media (max-width: 768px) {
+    width: 4.85rem;
+    height: 3rem;
+  }
+}
+
+.en-button{
+  background-image: url('../../public/Images/BRA.png');
+  background-size: cover;
+}
+
+.pt-button{
+  background-image: url('../../public/Images/EUA.png');
+  background-size: cover;
 }

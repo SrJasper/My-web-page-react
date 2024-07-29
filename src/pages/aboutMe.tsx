@@ -2,14 +2,22 @@ import React from "react";
 import "./aboutMe.css";
 import { Header } from "../components/header/header";
 import Credits from "../components/credits/credits";
+import { useTranslation } from "react-i18next";
+import { useEffect } from "react";
 
 const AboutMe: React.FC = () => {
+  let language = localStorage.getItem("lng") || "en";
+  const { t, i18n } = useTranslation();
+  useEffect(() => {
+    i18n.changeLanguage(language);
+  }, [language]);
+
   return (
     <div>
       <Header title={2} />
 
       <div className="title-about-me">
-        <h1>Sobre mim.</h1>
+        <h1>{t("about-me")}</h1>
       </div>
 
       <div className="separation-line"></div>
@@ -25,80 +33,56 @@ const AboutMe: React.FC = () => {
         </div>
       </div>
 
-      <div className="linguagens-texto">Tecnologias em que desenvolvo.</div>
+      <div className="linguagens-texto">{t("language-text")}</div>
 
       <div className="linguagens-grid">
         <div className="linguagem">
-          <div className="lg-img">
-            <img src="../Images/ts-icon.png" alt="" />
-          </div>
-          <div className="lg-nome">TypeScript</div>
+          <img src="../Images/ts-icon.png" alt="" />
+          <h2>TypeScript</h2>
         </div>
         <div className="linguagem">
-          <div className="lg-img">
-            <img src="../Images/react-icon.png" alt="" />
-          </div>
-          <div className="lg-nome">React.JS</div>
+          <img src="../Images/react-icon.png" alt="" />
+          <h2>React.JS</h2>
         </div>
         <div className="linguagem">
-          <div className="lg-img">
-            <img src="../Images/nest-icon.png" alt="" />
-          </div>
-          <div className="lg-nome">NestJS</div>
+          <img src="../Images/nest-icon.png" alt="" />
+          <h2>NestJS</h2>
         </div>
         <div className="linguagem">
-          <div className="lg-img">
-            <img src="../Images/python-icon.png" alt="" />
-          </div>
-          <div className="lg-nome">Python</div>
+          <img src="../Images/python-icon.png" alt="" />
+          <h2>Python</h2>
         </div>
         <div className="linguagem">
-          <div className="lg-img">
-            <img src="../Images/js-icon.png" alt="" />
-          </div>
-          <div className="lg-nome">JavaScript</div>
+          <img src="../Images/js-icon.png" alt="" />
+          <h2>JavaScript</h2>
         </div>
         <div className="linguagem">
-          <div className="lg-img">
-            <img src="../Images/html-icon.png" alt="" />
-          </div>
-          <div className="lg-nome">HTML</div>
+          <img src="../Images/html-icon.png" alt="" />
+          <h2>HTML</h2>
         </div>
         <div className="linguagem">
-          <div className="lg-img">
-            <img src="../Images/css-icon.png" alt="" />
-          </div>
-          <div className="lg-nome">CSS</div>
+          <img src="../Images/css-icon.png" alt="" />
+          <h2>CSS</h2>
         </div>
         <div className="linguagem">
-          <div className="lg-img">
-            <img src="../Images/nodejs-icon.png" alt="" />
-          </div>
-          <div className="lg-nome">Node.JS</div>
+          <img src="../Images/nodejs-icon.png" alt="" />
+          <h2>Node.JS</h2>
         </div>
         <div className="linguagem">
-          <div className="lg-img">
-            <img src="../Images/sql-icon.png" alt="" />
-          </div>
-          <div className="lg-nome">MySQL</div>
+          <img src="../Images/sql-icon.png" alt="" />
+          <h2>MySQL</h2>
         </div>
         <div className="linguagem">
-          <div className="lg-img">
-            <img src="../Images/postgress-icon.png" alt="" />
-          </div>
-          <div className="lg-nome">PostgreSQL</div>
+          <img src="../Images/postgress-icon.png" alt="" />
+          <h2>PostgreSQL</h2>
         </div>
         <div className="linguagem">
-          <div className="lg-img">
-            <img src="../Images/mongo-icon.png" alt="" />
-          </div>
-          <div className="lg-nome">Mongo DB</div>
+          <img src="../Images/mongo-icon.png" alt="" />
+          <h2>Mongo DB</h2>
         </div>
         <div className="linguagem">
-          <div className="lg-img">
-            <img src="../Images/prisma-icon.png" alt="" />
-          </div>
-          <div className="lg-nome">Prisma</div>
+          <img src="../Images/prisma-icon.png" alt="" />
+          <h2>Prisma</h2>
         </div>
       </div>
 

@@ -1,0 +1,35 @@
+{
+  "translation": {
+    "home-page": "Home Page",
+    "change-language": "Change Language",
+    "about-me": "About Me",
+    "projects": "Projects",
+    "contact": "Contact",
+
+    
+    "credits": "Made by Leonardo Fonseca",    
+    "language-text": "Technologies I work with.",
+
+    "home-title-one": "Transforming lines of",
+    "home-title-two": "code into innovative and",
+    "home-title-three": "functional solutions",
+    
+    "projects-title": "My projects.",
+    "projects-text": "Exploring my passion for development, I constantly strive to improve my skills. Check out my recent projects to witness my commitment to evolving as a developer.",
+    "projects-text-2": "Click on the project that interests you to access it!",
+
+    "stock-title": "Stock Manager",
+    "stock-text": "In this project, I chose to apply the most modern technologies on the market, using TypeScript throughout its development. On the server side, I chose the NestJS framework, known for its scalability and modular structure. For communication with the database, I chose Prisma, which offers a secure and practical interface. The PostgreSQL database was selected for its reliability and performance. For hosting, I opted to use the Neon service for the PostgreSQL database. For the front end, I used the React library to provide versatility and practicality in structuring the pages.",
+
+    "inventory-title": "Inventory Managment",
+    "inventory-text":"In the inventory project, I used Node.js, MySQL, and hosted both the database and the server on AWS.",
+
+    "task-title": "Task Organizer",
+    "task-text": "I developed an intuitive and versatile task organizer using HTML, CSS, and JavaScript. Users can efficiently manage their tasks by adding, removing, and marking tasks as completed in a user-friendly and functional interface.",
+
+    "calc-title": "Calculator",
+    "calc-text": "I created a functional calculator. This application combines HTML, CSS, and JavaScript logic, showcasing my mastery of web technologies. Explore the simplicity and efficiency of this calculator developed with passion and skill.",
+
+    "jet-text": "Meet JeT: a Python application created to simplify the organization of games among friends. With just a few clicks, the application randomly distributes participants into teams, automatically forming the teams."
+    }
+}

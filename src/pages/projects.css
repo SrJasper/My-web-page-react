@@ -16,7 +16,8 @@
 
 .projects-presentation p{
   font-size: 25px;
-  padding-bottom: 1rem;
+  padding-bottom: 1rem;  
+  animation: slideIn 2s forwards;
 }
 
 .pagina-projetos{

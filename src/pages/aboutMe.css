@@ -62,6 +62,11 @@
   height: 175vw;    
   display: flex;
   justify-content: center;
+
+  @media (min-width: 768px) {
+    background-image: url('../../Images/monitor.png');
+    height: 175vw;    
+  }
 } 
 .SM-text-field{
 margin-top: 18%;
@@ -129,12 +134,12 @@ margin-top: 18%;
   margin-bottom: 10px;
 }
 
-.lg-nome{
+.linguagem h2{
+  font-size: 20px;
   margin-top: 10px;
-  font-size: 15px;
 }
 
-.lg-img img{
+.linguagem img{
   height: 8rem;
   width: auto;
   @media (max-width: 768px) {

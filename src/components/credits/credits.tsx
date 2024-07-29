@@ -1,11 +1,20 @@
 import React from 'react';
 import './credits.css';
+import { useTranslation } from 'react-i18next';
+import { useEffect } from 'react';
 
 const Credits: React.FC = () => {
+
+  let language = localStorage.getItem("lng") || "en";
+  const { t, i18n } = useTranslation();
+  useEffect(() => {
+    i18n.changeLanguage(language);
+  }, [language]);
+
   return (
     <div className="credits">
       <h2>
-        Made by Leonardo Fonseca
+        {t("credits")}
       </h2>
         <div className="credits-icons">
           <img
