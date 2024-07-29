@@ -56,7 +56,7 @@
 .SM-bg {
   margin-top: 5%;
   /* background-image: url('../../Images/cel.png'); */
-  background-image: url('../../assets/Images/cel.png');
+  background-image: url('../../public/assets/Images/cel.png');
   background-size: 90vw 175vw;
   background-position: center;
   background-repeat: no-repeat;
