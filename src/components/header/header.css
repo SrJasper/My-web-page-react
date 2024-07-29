@@ -81,22 +81,13 @@
 }
 
 .en-button{
-<<<<<<< HEAD
   background-image: url('../../../public/assets/Images/BRA.png');
   /* background-image: url('../../assets/Images/BRA.png'); */
-=======
-  background-image: url('../../../public/assets/images/BRA.png');
-  /* background-image: url('../../assets/images/BRA.png'); */
->>>>>>> parent of cf85379 (fix: image folders fix)
   background-size: cover;
 }
 
 .pt-button{
-<<<<<<< HEAD
   background-image: url('../../../assets/Images/EUA.png');
-=======
-  background-image: url('../../../public/assets/images/EUA.png');
->>>>>>> parent of cf85379 (fix: image folders fix)
   /* background-image: url('../../assets/images/EUA.png'); */
   background-size: cover;
 }

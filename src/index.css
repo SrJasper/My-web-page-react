@@ -22,11 +22,7 @@
 }
 
 body{
-<<<<<<< HEAD
   background-image: url('../public/assets/Images/background2.png');
-=======
-  background-image: url('../../public/assets/images/background2.png');
->>>>>>> parent of cf85379 (fix: image folders fix)
   background-size: 20vw;
   display: flex;
   flex-direction: column;
