@@ -81,13 +81,13 @@
 }
 
 .en-button{
-  background-image: url('../../../assets/images/BRA.png');
-  /* background-image: url('../../assets/images/BRA.png'); */
+  background-image: url('../../../public/assets/Images/BRA.png');
+  /* background-image: url('../../assets/Images/BRA.png'); */
   background-size: cover;
 }
 
 .pt-button{
-  background-image: url('../../../assets/images/EUA.png');
+  background-image: url('../../../public/assets/Images/EUA.png');
   /* background-image: url('../../assets/images/EUA.png'); */
   background-size: cover;
 }
