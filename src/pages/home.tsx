@@ -30,6 +30,11 @@ const Home: React.FC = () => {
 
   return (
     <div>
+      <div className="title">
+        <h1>{t("home-title-one")}</h1>
+        <h1>{t("home-title-two")}</h1>
+        <h1>{t("home-title-three")}</h1>
+      </div>
       <Header title={1} />
       {cardLanguage && 
       <LanguageController
@@ -38,11 +43,6 @@ const Home: React.FC = () => {
         }}
       />}
 
-      <div className="title">
-        <h1>{t("home-title-one")}</h1>
-        <h1>{t("home-title-two")}</h1>
-        <h1>{t("home-title-three")}</h1>
-      </div>
 
       <div className="banner1"></div>
       <div className="banner2"></div>
