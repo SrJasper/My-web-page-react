@@ -22,7 +22,7 @@
 }
 
 body{
-  background-image: url('../public/assets/images/background2.png');
+  background-image: url('../public/assets/images/background2.png'); /*correto*/
   background-size: 20vw;
   display: flex;
   flex-direction: column;
