@@ -31,32 +31,11 @@
       transform: translateX(0);
   }
 }
-/* 
-.SM-bg {
-  position: relative; 
-  margin-top: 5%;
-  background-image: url('../../Images/cel.png');
-  background-size: 400px 700px;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 710px;    
-  display: flex;
-  justify-content: center;
-} 
 
-.SM-text-field{
-  position: absolute; 
-  top: 18%;   
-  left: 15%;  
-  right: 15%; 
-  font-size: 19px;
-  hyphens: auto;
-}
-*/
 .SM-bg {
   margin-top: 5%;
   /* background-image: url('../../Images/cel.png'); */
-  background-image: url('../../public/assets/Images/cel.png');
+  background-image: url('../../public/assets/images/cel.png');
   background-size: 90vw 175vw;
   background-position: center;
   background-repeat: no-repeat;
@@ -137,7 +116,7 @@ margin-top: 18%;
 }
 
 .linguagens-grid > * {
-  margin-bottom: -10px; /* Compensa a margem na parte inferior para os elementos filhos */
+  margin-bottom: -10px;
 }
 
 

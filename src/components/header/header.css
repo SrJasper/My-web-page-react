@@ -81,21 +81,11 @@
 }
 
 .en-button{
-<<<<<<< HEAD
-  background-image: url('../../../public/assets/Images/BRA.png');
-  /* background-image: url('../../assets/Images/BRA.png'); */
-=======
-  background-image: url('../../public/Images/BRA.png');
->>>>>>> parent of 63c4f7c (fix: image build problems)
+  background-image: url('../../../public/assets/images/BRA.png');
   background-size: cover;
 }
 
 .pt-button{
-<<<<<<< HEAD
-  background-image: url('../../../assets/Images/EUA.png');
-  /* background-image: url('../../assets/images/EUA.png'); */
-=======
-  background-image: url('../../public/Images/EUA.png');
->>>>>>> parent of 63c4f7c (fix: image build problems)
+  background-image: url('../../../public/assets/images/EUA.png');
   background-size: cover;
 }

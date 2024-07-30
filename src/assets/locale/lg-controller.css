@@ -10,16 +10,10 @@
   gap: 0rem;
   @media (max-width: 768px) {
     gap: 10rem;
-<<<<<<< HEAD
-    /* background-image: url('../../assets/images/back-language-mobile.png'); */
-<<<<<<< HEAD
-    background-image: url('../../../public/assets/Images/back-language-mobile.png');
-=======
+
+    /* background-image: url('../../../public/assets/Images/back-language-mobile.png');" */
+
     background-image: url('../../../public/assets/images/back-language-mobile.png');
->>>>>>> parent of cf85379 (fix: image folders fix)
-=======
-    background-image: url('../../public/Images/back-language-mobile.png');
->>>>>>> parent of 63c4f7c (fix: image build problems)
     background-position: center right -4.5rem;
     background-size: cover;
     opacity: 0.8; 
