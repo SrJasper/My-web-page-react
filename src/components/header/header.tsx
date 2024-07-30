@@ -39,6 +39,7 @@ const Header: React.FC<Props> = ({ title }) => {
     <div className="header">
       
       <div className='header-options'>
+        <img className='../../../assets/images/header-img' src="/profile-pic.png" alt="Profile" />
         <h1 className={`${title === 1 ? 'green' : ''}`} onClick={goToMainPage}>
           {t("home-page") /* Página Inicial */}
         </h1>
@@ -62,10 +63,6 @@ const Header: React.FC<Props> = ({ title }) => {
         }
       }}
       ></button>
-      <div className="banner1"></div>
-      <div className="banner2"></div>
-      <div className="banner3"></div>
-      <div className="banner4"></div>
     </div>
   );
 };

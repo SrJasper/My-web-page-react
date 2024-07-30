@@ -34,7 +34,7 @@ const ProjectsPage: React.FC = () => {
       <div className="project-tab">
         <img 
         onClick={() => {window.open("https://stock-front-react.vercel.app", "StockPage");}}
-        src="../../public/assets/images/stocks.png" alt="stck" />
+        src="../../assets/images/stocks.png" alt="stck" />
         <div className="project-description">
           <h2>{t("stock-title")}</h2>
           <p>
@@ -48,7 +48,7 @@ const ProjectsPage: React.FC = () => {
       <div className="project-tab">
         <img 
         onClick={() => {window.open("https://loja.leosstore.shop/listar/todos", "InventoryPage");}}
-        src="../../public/assets/images/store.png" alt="stre" />
+        src="../../assets/images/store.png" alt="stre" />
         <div className="project-description">
           <h2>
             {t("inventory-title")}
@@ -64,7 +64,7 @@ const ProjectsPage: React.FC = () => {
       <div className="project-tab">
         <img  
         onClick={() => {window.open("https://leostaskmanager.netlify.app/", "TaskPage");}}
-        src="../../public/assets/images/task.png" alt="task" />
+        src="../../assets/images/task.png" alt="task" />
         <div className="project-description">
           <h2>
             {t("task-title")}
@@ -80,7 +80,7 @@ const ProjectsPage: React.FC = () => {
       <div className="project-tab">
         <img  
         onClick={() => {window.open("https://leoscalcproject.netlify.app/", "StockPage");}}
-        src="../../public/assets/images/calc.png" alt="calc" />
+        src="../../assets/images/calc.png" alt="calc" />
         <div className="project-description">
           <h2>
             {t("calc-title")}
@@ -96,7 +96,7 @@ const ProjectsPage: React.FC = () => {
       <div className="project-tab">
         <img 
         onClick={() => {window.open("https://github.com/SrJasper/Jet/releases/tag/JeT", "StockPage");}}
-        src="../../public/assets/images/jet.png" alt="jet" />
+        src="../../assets/images/jet.png" alt="jet" />
         <div className="project-description">
           <h2>
             JeT
