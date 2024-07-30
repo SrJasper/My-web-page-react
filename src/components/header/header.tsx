@@ -32,12 +32,12 @@ const Header: React.FC<Props> = ({ title }) => {
 
   return (
     <div className="header">
+      <img
+        src="../../../assets/images/profile-pic.png"
+        className="header-img"
+        alt="Profile"
+      />
       <div className="header-options">
-        <img
-          src="../../../assets/images/profile-pic.png"
-          className="header-img"
-          alt="Profile"
-        />
         <h1 className={`${title === 1 ? "green" : ""}`} onClick={goToMainPage}>
           {t("home-page") /* Página Inicial */}
         </h1>
