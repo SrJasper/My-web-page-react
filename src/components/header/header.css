@@ -15,11 +15,11 @@
   justify-content: space-around;
   align-items: center;
   width: 59.19rem;
-
+  
   @media (max-width: 768px) {
     width:100%;
     padding: 1rem 0 0 0;
-    gap: 3rem;
+    gap: 2rem;
     justify-content: center;
   }
 }

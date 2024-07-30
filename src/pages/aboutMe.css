@@ -32,9 +32,10 @@
   }
 }
 
+
 .SM-bg {
   margin-top: 5%;
-  background-image: url('../../public/assets/images/cel.png'); /*correto*/
+  background-image: url('../../public/assets/Images/cel.png');
   background-size: 90vw 175vw;
   background-position: center;
   background-repeat: no-repeat;
@@ -50,8 +51,9 @@
 .SM-bg p{
   padding-top: 4.5rem;
   color: rgb(217, 217, 217);
-  width: 18rem;  
+  width: 15rem;  
   text-align: justify;
+  hyphens: auto;
   @media (min-width: 768px) {
     color: rgb(222, 222, 222);
     color: #484848;
@@ -115,7 +117,7 @@ margin-top: 18%;
 }
 
 .linguagens-grid > * {
-  margin-bottom: -10px;
+  margin-bottom: -10px; /* Compensa a margem na parte inferior para os elementos filhos */
 }
 
 
