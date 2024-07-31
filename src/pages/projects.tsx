@@ -33,7 +33,7 @@ const ProjectsPage: React.FC = () => {
 
       <div className="project-tab">
         <img 
-        onClick={() => {window.open("https://stock-front-react.vercel.app", "StockPage");}}
+        onClick={() => {window.open("https://stock-manager-front.vercel.app", "StockPage");}}
         src="../../assets/images/stocks.png" alt="stck" />
         <div className="project-description">
           <h2>{t("stock-title")}</h2>
