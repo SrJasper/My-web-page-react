@@ -29,7 +29,7 @@ const ProjectsPage: React.FC = () => {
         <p> {t("projects-text-2")}</p>
       </div>
 
-      <div className="separation-line-projects"></div>
+      <div className="separation-line"></div>
 
       <div className="project-tab">
         <img 

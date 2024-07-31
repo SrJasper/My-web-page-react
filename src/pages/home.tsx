@@ -29,7 +29,7 @@ const Home: React.FC = () => {
   },[, localStorage.getItem("lng")]);
 
   return (
-    <div>
+    <div className="use-width">
       <Header title={1} />
       {cardLanguage && 
       <LanguageController

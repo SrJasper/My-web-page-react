@@ -49,15 +49,13 @@
 }
 
 .SM-bg p{
-  padding-top: 4.5rem;
+  padding: 4rem 2rem 0rem 2rem;
   color: rgb(217, 217, 217);
-  width: 15rem;  
   text-align: justify;
   hyphens: auto;
   @media (min-width: 768px) {
     color: rgb(222, 222, 222);
     color: #484848;
-    width: 59.19rem;
     padding-top: 0rem;
     font-size: 1.5rem;
   }
@@ -70,21 +68,6 @@ margin-top: 18%;
   margin-left: 15%;
   font-size: 15px;
   hyphens: auto;
-}
-
-.language{
-  position: absolute;
-  right: 0;
-  top: 0;
-  margin-top: 4rem;
-  margin-right: 1.5rem;
-  color: green;
-}
-
-.language img{
-  border: 3px solid rgb(67, 67, 67);
-  height: 20px;
-  cursor: pointer;
 }
 
 .SM-texto{
@@ -101,6 +84,10 @@ margin-top: 18%;
   margin-top: 5%;
   margin-bottom: 5%;
   margin-left: 5%;
+  @media (max-width: 768px){
+    line-height: 2.7rem;
+    padding-left: 1rem;
+  }
 }
 
 .linguagens-grid {
@@ -111,7 +98,7 @@ margin-top: 18%;
   margin-left: 10px;
   margin-right: 10px;
   @media (max-width: 768px) {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 0px;
   }
 }
@@ -121,7 +108,7 @@ margin-top: 18%;
 }
 
 
-.linguagem{
+.linguagens-grid div{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -129,12 +116,15 @@ margin-top: 18%;
   margin-bottom: 10px;
 }
 
-.linguagem h2{
+.linguagens-grid div h2{
   font-size: 20px;
   margin-top: 10px;
+  @media (max-width: 768px) {
+    font-size: 15px;
+  }
 }
 
-.linguagem img{
+.linguagens-grid div img{
   height: 8rem;
   width: auto;
   @media (max-width: 768px) {

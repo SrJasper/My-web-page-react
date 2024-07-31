@@ -24,58 +24,58 @@ const AboutMe: React.FC = () => {
 
       <div className="SM-bg">
         <p>
-          Sou Leonardo Fonseca, formado pela UNIFESP e apaixonado por tecnologia. Com uma abordagem focada e diligente, busco constantemente crescimento pessoal e profissional. Minha formação acadêmica e entusiasmo por tecnologia me permitem enfrentar desafios de forma eficaz e inovadora. Minhas principais habilidades são em NestJS, ReactJS, TypeScript e TDD, áreas nas quais me dedico a desenvolver soluções impactantes e de alta qualidade.
+          {t("about-me-description")}
         </p>
       </div>
 
       <div className="linguagens-texto">{t("language-text")}</div>
 
       <div className="linguagens-grid">
-        <div className="linguagem">
+        <div>
           <img src="../../../assets/images/ts-icon.png" alt="" />
           <h2>TypeScript</h2>
         </div>
-        <div className="linguagem">
+        <div>
           <img src="../../../assets/images/react-icon.png" alt="" />
           <h2>React.JS</h2>
         </div>
-        <div className="linguagem">
+        <div>
           <img src="../../../assets/images/nest-icon.png" alt="" />
           <h2>NestJS</h2>
         </div>
-        <div className="linguagem">
+        <div>
           <img src="../../../assets/images/python-icon.png" alt="" />
           <h2>Python</h2>
         </div>
-        <div className="linguagem">
+        <div>
           <img src="../../../assets/images/js-icon.png" alt="" />
           <h2>JavaScript</h2>
         </div>
-        <div className="linguagem">
+        <div>
           <img src="../../../assets/images/html-icon.png" alt="" />
           <h2>HTML</h2>
         </div>
-        <div className="linguagem">
+        <div>
           <img src="../../../assets/images/css-icon.png" alt="" />
           <h2>CSS</h2>
         </div>
-        <div className="linguagem">
+        <div>
           <img src="../../../assets/images/nodejs-icon.png" alt="" />
           <h2>Node.JS</h2>
         </div>
-        <div className="linguagem">
+        <div>
           <img src="../../../assets/images/sql-icon.png" alt="" />
           <h2>MySQL</h2>
         </div>
-        <div className="linguagem">
+        <div>
           <img src="../../../assets/images/postgress-icon.png" alt="" />
           <h2>PostgreSQL</h2>
         </div>
-        <div className="linguagem">
+        <div>
           <img src="../../../assets/images/mongo-icon.png" alt="" />
           <h2>Mongo DB</h2>
         </div>
-        <div className="linguagem">
+        <div>
           <img src="../../../assets/images/prisma-icon.png" alt="" />
           <h2>Prisma</h2>
         </div>
