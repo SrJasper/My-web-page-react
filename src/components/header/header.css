@@ -20,7 +20,7 @@
     width:100%;
     padding: 1rem 0 0 0;
     gap: 2rem;
-    justify-content: center;
+    justify-content: space-around;
   }
 }
 
@@ -40,7 +40,6 @@
   font-family: "Anton", serif;
   cursor: pointer;
   @media (max-width: 768px) {
-    font-family: "Anton", serif;
     font-size: 1rem;
     width: 3rem;
   }
