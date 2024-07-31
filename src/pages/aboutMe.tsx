@@ -12,6 +12,10 @@ const AboutMe: React.FC = () => {
     i18n.changeLanguage(language);
   }, [language]);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       <Header title={2} />

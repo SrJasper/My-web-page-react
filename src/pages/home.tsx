@@ -11,6 +11,12 @@ const Home: React.FC = () => {
   const goToProjectsPage = () => {
     navigate("/projects");
   };
+  const goToMePage = () => {
+    navigate("/me");
+  };
+  const goToWppPage = () => {
+    window.open("https://wa.me/5512997772296", "_blank");
+  };
 
   let language = localStorage.getItem("lng") || "en";
   const { t, i18n } = useTranslation();
@@ -20,33 +26,37 @@ const Home: React.FC = () => {
 
   const [cardLanguage, setCardLanguage] = React.useState(true);
 
-  useEffect(()=>{
-    if(localStorage.getItem("lng") === null){
+  useEffect(() => {
+    if (localStorage.getItem("lng") === null) {
       setCardLanguage(true);
     } else {
       setCardLanguage(false);
     }
-  },[, localStorage.getItem("lng")]);
+  }, [, localStorage.getItem("lng")]);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="use-width">
       <Header title={1} />
-      {cardLanguage && 
-      <LanguageController
-        handleClose={() => {
-          setCardLanguage(false);
-        }}
-      />}
-      
+      {cardLanguage && (
+        <LanguageController
+          handleClose={() => {
+            setCardLanguage(false);
+          }}
+        />
+      )}
+
       <div className="title">
         <h1>{t("home-title-one")}</h1>
         <h1>{t("home-title-two")}</h1>
         <h1>{t("home-title-three")}</h1>
       </div>
 
-
       <div className="container-main-options">
-        <div>
+        <div className="hover" onClick={goToMePage}>
           <img
             src="../../assets/images/guy-Icon.png"
             alt=""
@@ -58,7 +68,7 @@ const Home: React.FC = () => {
           <img src="../../assets/images/pc.png" alt="" className="page-image" />
           <label className="page-text">{t("projects")}</label>
         </div>
-        <div>
+        <div className="hover" onClick={goToWppPage}>
           <img
             src="../../assets/images/Contact.png"
             alt=""
