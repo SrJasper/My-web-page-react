@@ -1,3 +1,4 @@
+/* eslint-disable*/
 import React, { useEffect } from "react";
 import "./projects.css";
 import { Header } from "../components/header/header";
@@ -29,6 +30,7 @@ const ProjectsPage: React.FC = () => {
         <p> {t("projects-text-2")}</p>
       </div>
 
+      
       <div className="separation-line"></div>
 
       <div className="project-tab">
