@@ -24,88 +24,93 @@ const ProjectsPage: React.FC = () => {
       </div>
 
       <div className="projects-presentation">
-        <p>
-          {t("projects-text")}
-        </p>
+        <p>{t("projects-text")}</p>
         <p> {t("projects-text-2")}</p>
       </div>
 
-      
       <div className="separation-line"></div>
 
       <div className="project-tab">
-        <img 
-        onClick={() => {window.open("https://stock-manager-front.vercel.app", "StockPage");}}
-        src="../../assets/images/stocks.png" alt="stck" />
+        <img
+          onClick={() => {
+            window.open("https://stock-manager-front.vercel.app", "StockPage");
+          }}
+          src="../../assets/images/stocks.png"
+          alt="stck"
+        />
         <div className="project-description">
           <h2>{t("stock-title")}</h2>
-          <p>
-            {t("stock-text")}
-          </p>
+          <p>{t("stock-text")}</p>
+        </div>
+      </div>
+
+      {/* <div className="separation-line"></div>
+
+      <div className="project-tab">
+        <img
+          onClick={() => {
+            window.open(
+              "https://loja.leosstore.shop/listar/todos",
+              "InventoryPage"
+            );
+          }}
+          src="../../assets/images/store.png"
+          alt="stre"
+        />
+        <div className="project-description">
+          <h2>{t("inventory-title")}</h2>
+          <p>{t("inventory-text")}</p>
+        </div>
+      </div> */}
+
+      <div className="separation-line"></div>
+
+      <div className="project-tab">
+        <img
+          onClick={() => {
+            window.open("https://leostaskmanager.netlify.app/", "TaskPage");
+          }}
+          src="../../assets/images/task.png"
+          alt="task"
+        />
+        <div className="project-description">
+          <h2>{t("task-title")}</h2>
+          <p>{t("task-text")}</p>
         </div>
       </div>
 
       <div className="separation-line"></div>
 
       <div className="project-tab">
-        <img 
-        onClick={() => {window.open("https://loja.leosstore.shop/listar/todos", "InventoryPage");}}
-        src="../../assets/images/store.png" alt="stre" />
+        <img
+          onClick={() => {
+            window.open("https://leoscalcproject.netlify.app/", "StockPage");
+          }}
+          src="../../assets/images/calc.png"
+          alt="calc"
+        />
         <div className="project-description">
-          <h2>
-            {t("inventory-title")}
-          </h2>
-          <p>
-            {t("inventory-text")}
-          </p>
+          <h2>{t("calc-title")}</h2>
+          <p>{t("calc-text")}</p>
         </div>
       </div>
 
       <div className="separation-line"></div>
 
       <div className="project-tab">
-        <img  
-        onClick={() => {window.open("https://leostaskmanager.netlify.app/", "TaskPage");}}
-        src="../../assets/images/task.png" alt="task" />
+        <img
+          onClick={() => {
+            window.open(
+              "https://github.com/SrJasper/Jet/releases/tag/JeT",
+              "StockPage"
+            );
+          }}
+          src="../../assets/images/jet.png"
+          alt="jet"
+        />
         <div className="project-description">
-          <h2>
-            {t("task-title")}
-          </h2>
-          <p>
-            {t("task-text")}
-          </p>
-        </div>
-      </div>
-
-      <div className="separation-line"></div>
-
-      <div className="project-tab">
-        <img  
-        onClick={() => {window.open("https://leoscalcproject.netlify.app/", "StockPage");}}
-        src="../../assets/images/calc.png" alt="calc" />
-        <div className="project-description">
-          <h2>
-            {t("calc-title")}
-          </h2>
-          <p>
-            {t("calc-text")}
-          </p>
-        </div>
-      </div>
-
-      <div className="separation-line"></div>
-
-      <div className="project-tab">
-        <img 
-        onClick={() => {window.open("https://github.com/SrJasper/Jet/releases/tag/JeT", "StockPage");}}
-        src="../../assets/images/jet.png" alt="jet" />
-        <div className="project-description">
-          <h2>
-            JeT
-          </h2>
-          <p>
-            {t("jet-text")}
-          </p>
+          <h2>JeT</h2>
+          <p>{t("jet-text")}</p>
         </div>
       </div>
 
