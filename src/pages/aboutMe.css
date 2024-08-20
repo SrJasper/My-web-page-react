@@ -1,8 +1,8 @@
-.pagina-sobre-mim{
+.pagina-sobre-mim {
   color: green;
 }
 
-.title-about-me{
+.title-about-me {
   display: flex;
   width: 100%;
   padding-top: 1rem;
@@ -12,34 +12,33 @@
   padding-left: 2rem;
 }
 
-.title-about-me h1{
+.title-about-me h1 {
   height: 6rem;
   font-size: 5rem;
   font-weight: normal;
-  @media (max-width: 768px){
+  @media (max-width: 768px) {
     font-size: 2rem;
     height: 2.2rem;
-    padding-left: .5rem;
+    padding-left: 0.5rem;
   }
 }
 
 @keyframes slideIn {
   from {
-      transform: translateX(-10%);
+    transform: translateX(-10%);
   }
   to {
-      transform: translateX(0);
+    transform: translateX(0);
   }
 }
 
-
 .SM-bg {
   margin-top: 5%;
-  background-image: url('../../public/assets/Images/cel.png');
+  background-image: url("../../public/assets/images/cel.png");
   background-size: 90vw 175vw;
   background-position: center;
   background-repeat: no-repeat;
-  height: 175vw;    
+  height: 175vw;
   display: flex;
   justify-content: center;
   @media (min-width: 768px) {
@@ -48,7 +47,7 @@
   }
 }
 
-.SM-bg p{
+.SM-bg p {
   padding: 4rem 2rem 0rem 2rem;
   color: rgb(217, 217, 217);
   text-align: justify;
@@ -61,8 +60,8 @@
   }
 }
 
-.SM-text-field{
-margin-top: 18%;
+.SM-text-field {
+  margin-top: 18%;
   margin-top: 18%;
   margin-right: 15%;
   margin-left: 15%;
@@ -70,8 +69,8 @@ margin-top: 18%;
   hyphens: auto;
 }
 
-.SM-texto{
-  color:rgb(200, 200, 200);
+.SM-texto {
+  color: rgb(200, 200, 200);
   padding: 1%;
   width: 95%;
   text-align: justify;
@@ -79,12 +78,12 @@ margin-top: 18%;
   margin-bottom: 10px;
 }
 
-.linguagens-texto{
+.linguagens-texto {
   font-size: 40px;
   margin-top: 5%;
   margin-bottom: 5%;
   margin-left: 5%;
-  @media (max-width: 768px){
+  @media (max-width: 768px) {
     line-height: 2.7rem;
     padding-left: 1rem;
   }
@@ -107,8 +106,7 @@ margin-top: 18%;
   margin-bottom: -10px; /* Compensa a margem na parte inferior para os elementos filhos */
 }
 
-
-.linguagens-grid div{
+.linguagens-grid div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -116,7 +114,7 @@ margin-top: 18%;
   margin-bottom: 10px;
 }
 
-.linguagens-grid div h2{
+.linguagens-grid div h2 {
   font-size: 20px;
   margin-top: 10px;
   @media (max-width: 768px) {
@@ -124,16 +122,16 @@ margin-top: 18%;
   }
 }
 
-.linguagens-grid div img{
+.linguagens-grid div img {
   height: 8rem;
   width: auto;
   @media (max-width: 768px) {
     height: 4rem;
-    width: auto;    
+    width: auto;
   }
 }
 
-.force-down{
+.force-down {
   position: relative;
   bottom: 0;
   width: 100%;
