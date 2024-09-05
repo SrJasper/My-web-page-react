@@ -19,6 +19,8 @@
     "projects-text": "Exploring my passion for development, I constantly strive to improve my skills. Check out my recent projects to witness my commitment to evolving as a developer.",
     "projects-text-2": "Click on the project's image that interests you to access it!",
 
+    "certificate-title": "Certificates",
+
     "stock-title": "Stock Manager",
     "stock-text": "In this project, I chose to apply the most modern technologies on the market, using TypeScript throughout its development. On the server side, I chose the NestJS framework, known for its scalability and modular structure. For communication with the database, I chose Prisma, which offers a secure and practical interface. The PostgreSQL database was selected for its reliability and performance. For hosting, I opted to use the Neon service for the PostgreSQL database. For the front end, I used the React library to provide versatility and practicality in structuring the pages.",
 
@@ -31,6 +33,7 @@
     "calc-title": "Calculator",
     "calc-text": "I created a functional calculator. This application combines HTML, CSS, and JavaScript logic, showcasing my mastery of web technologies. Explore the simplicity and efficiency of this calculator developed with passion and skill.",
 
-    "jet-text": "Meet JeT: a Python application created to simplify the organization of games among friends. With just a few clicks, the application randomly distributes participants into teams, automatically forming the teams."
+    "jet-text": "Meet JeT: a Python application created to simplify the organization of games among friends. With just a few clicks, the application randomly distributes participants into teams, automatically forming the teams.",
+    "posts-text": "This project was created with the aim of practicing the TDD method, so that the tests guided the development, ensuring a correct and high-quality development environment."
     }
 }

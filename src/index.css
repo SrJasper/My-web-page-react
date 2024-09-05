@@ -95,6 +95,10 @@ button {
   transition: border-color 0.25s;
 }
 
+.disabled {
+  display: none;
+}
+
 
 
 

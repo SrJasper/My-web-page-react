@@ -44,6 +44,22 @@ const ProjectsPage: React.FC = () => {
         </div>
       </div>
 
+      <div className="separation-line"></div>
+
+      <div className="project-tab">
+        <img
+          onClick={() => {
+            window.open("https://post-tdd-front.vercel.app", "StockPage");
+          }}
+          src="../../assets/images/posts.png"
+          alt="stck"
+        />
+        <div className="project-description">
+          <h2>Posts</h2>
+          <p>{t("posts-text")}</p>
+        </div>
+      </div>
+
       {/* <div className="separation-line"></div>
 
       <div className="project-tab">

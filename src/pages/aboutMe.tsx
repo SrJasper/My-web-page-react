@@ -12,6 +12,12 @@ const AboutMe: React.FC = () => {
     i18n.changeLanguage(language);
   }, [language]);
 
+  const [certificates, setCertificates] = React.useState(false);
+
+  const handleCertificates = () => {
+    setCertificates(!certificates);
+  }
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -30,6 +36,29 @@ const AboutMe: React.FC = () => {
         <p>
           {t("about-me-description")}
         </p>
+      </div>
+
+      <div className="certificates-div">      
+        <div className={`certificates-container ${certificates ? 'certificates' : ''}`}>
+          <button 
+            className={`${certificates ? 'certificates' : ''}`}
+            onClick={handleCertificates}>
+              <h2>
+                {t("certificate-title")}  
+              </h2> 
+          </button>
+          <div className={`${certificates ? 'disabled' : 'certificate-grid'}`}>
+            <button>
+              UNIFESP
+            </button>
+            <button>
+              EXCEL
+            </button>  
+            <button>
+              TDD
+            </button>
+          </div>
+        </div>
       </div>
 
       <div className="linguagens-texto">{t("language-text")}</div>
