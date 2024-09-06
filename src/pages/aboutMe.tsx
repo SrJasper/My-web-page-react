@@ -38,7 +38,7 @@ const AboutMe: React.FC = () => {
         </p>
       </div>
 
-      <div className="certificates-div">      
+      {/* <div className="certificates-div">      
         <div className={`certificates-container ${certificates ? 'certificates' : ''}`}>
           <button 
             className={`${certificates ? 'certificates' : ''}`}
@@ -59,7 +59,7 @@ const AboutMe: React.FC = () => {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="linguagens-texto">{t("language-text")}</div>
 
