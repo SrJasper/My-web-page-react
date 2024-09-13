@@ -12,11 +12,11 @@ const AboutMe: React.FC = () => {
     i18n.changeLanguage(language);
   }, [language]);
 
-  const [certificates, setCertificates] = React.useState(false);
+  // const [certificates, setCertificates] = React.useState(true);
 
-  const handleCertificates = () => {
-    setCertificates(!certificates);
-  }
+  // const handleCertificates = () => {
+  //   setCertificates(!certificates);
+  // }
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -41,7 +41,7 @@ const AboutMe: React.FC = () => {
       {/* <div className="certificates-div">      
         <div className={`certificates-container ${certificates ? 'certificates' : ''}`}>
           <button 
-            className={`${certificates ? 'certificates' : ''}`}
+            className={`width ${certificates ? 'certificates' : ''}`}
             onClick={handleCertificates}>
               <h2>
                 {t("certificate-title")}  
