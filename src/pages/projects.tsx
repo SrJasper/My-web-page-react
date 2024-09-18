@@ -49,6 +49,22 @@ const ProjectsPage: React.FC = () => {
       <div className="project-tab">
         <img
           onClick={() => {
+            window.open("https://www.imagineandaction.com", "StockPage");
+          }}
+          src="../../assets/images/imagine.png"
+          alt="stck"
+        />
+        <div className="project-description">
+          <h2>{t("imagine-title")}</h2>
+          <p>{t("imagine-text")}</p>
+        </div>
+      </div>
+
+      <div className="separation-line"></div>
+
+      <div className="project-tab">
+        <img
+          onClick={() => {
             window.open("https://post-tdd-front.vercel.app", "StockPage");
           }}
           src="../../assets/images/posts.png"
