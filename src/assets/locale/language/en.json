@@ -36,6 +36,7 @@
     "imagine-title": "Imgaine and action",
     "imagine-text": "Imagine and Action is a website with a word guessing game made with ReactJS. It’s a freelance project for a client, so I can't publish the code publicly. But you can access the website by clicking on the image.",
 
+    "jet-title": "JeT",
     "jet-text": "Meet JeT: a Python application created to simplify the organization of games among friends. With just a few clicks, the application randomly distributes participants into teams, automatically forming the teams.",
     "posts-text": "This project was created with the aim of practicing the TDD method, so that the tests guided the development, ensuring a correct and high-quality development environment.",
 
