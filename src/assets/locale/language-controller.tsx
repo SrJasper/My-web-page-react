@@ -18,7 +18,7 @@ const LanguageController: React.FC<Prop> = ({
 
   useEffect(()=>{
     console.log("Languages: ", localStorage.getItem("lng"));
-  },[, localStorage.getItem("lng")]);
+  },[localStorage.getItem("lng")]);
 
   return (
     <>     

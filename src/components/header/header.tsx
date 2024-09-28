@@ -1,19 +1,21 @@
 import { useNavigate } from "react-router-dom";
-import React, { useEffect } from "react";
+import React from "react";
 import "./header.css";
 import { useTranslation } from "react-i18next";
-import { useState } from "react";
+import { useLanguage } from "../../contexts/LanguageContext";
 
 interface Props {
   title: number;
 }
 
 const Header: React.FC<Props> = ({ title }) => {
-  const [language, setLanguage] = useState("");
-  const { t, i18n } = useTranslation();
-  useEffect(() => {
-    i18n.changeLanguage(language);
-  }, [language]);
+  const { t } = useTranslation();
+
+  const { language, setLanguage } = useLanguage();
+
+  const changeLanguage = () => {
+    setLanguage(!language);
+  };
 
   const navigate = useNavigate();
   const goToMainPage = () => {
@@ -57,13 +59,7 @@ const Header: React.FC<Props> = ({ title }) => {
           localStorage.getItem("lng") === "en" ? "en-button" : "pt-button"
         }`}
         onClick={() => {
-          if (localStorage.getItem("lng") === "en") {
-            localStorage.setItem("lng", "pt");
-            setLanguage("pt");
-          } else {
-            localStorage.setItem("lng", "en");
-            setLanguage("en");
-          }
+          changeLanguage();
         }}
       ></button>
     </div>

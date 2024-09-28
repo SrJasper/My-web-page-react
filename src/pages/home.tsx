@@ -18,11 +18,7 @@ const Home: React.FC = () => {
     window.open("https://wa.me/5512997772296", "_blank");
   };
 
-  let language = localStorage.getItem("lng") || "en";
-  const { t, i18n } = useTranslation();
-  useEffect(() => {
-    i18n.changeLanguage(language);
-  }, [language]);
+  const { t } = useTranslation();
 
   const [cardLanguage, setCardLanguage] = React.useState(true);
 
@@ -32,7 +28,7 @@ const Home: React.FC = () => {
     } else {
       setCardLanguage(false);
     }
-  }, [, localStorage.getItem("lng")]);
+  }, [localStorage.getItem("lng")]);
 
   useEffect(() => {
     window.scrollTo(0, 0);
