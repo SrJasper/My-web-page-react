@@ -8,6 +8,14 @@ export const projects = [
     link: "https://www.imagineandaction.com",
   },
   {
+    projectTitle: "chordLearner",
+    link: "https://chordlearner.online",
+  },
+  {
+    projectTitle: "bot-mail",
+    link: "https://bot-email-i9b823gul-leonardo-fonsecas-projects-c9dab81e.vercel.app",
+  },
+  {
     projectTitle: "portfolio",
     link: "https://github.com/SrJasper/My-web-page-react",
   },

@@ -37,9 +37,17 @@
 
     "jet-title": "JeT",
     "jet-text": "Conheça o JeT: um aplicativo Python criado para simplificar a organização de jogos entre amigos. Com apenas alguns cliques, o aplicativo distribui os participantes em equipes de forma aleatória, formando as equipes automaticamente.",
+    
+    "posts-title": "Posts (TDD)",
     "posts-text": "Este projeto foi feito com o intuito de exercitar o método de TDD, de forma que os testes orientaram o desenvolvimento, garantindo um ambiente de desenvolvimento correto e de qualidade.",
 
     "portfolio-title": "Portfólio",
-    "portfolio-text": "Este portfólio foi desenvolvido em ReactJS, com a integração da biblioteca i18next para fornecer suporte à internacionalização. O site é totalmente responsivo e foi projetado para exibir meus projetos e habilidades de forma clara e acessível. O código-fonte está disponível no GitHub, e você pode acessá-lo clicando na imagem abaixo."
+    "portfolio-text": "Este portfólio foi desenvolvido em ReactJS, com a integração da biblioteca i18next para fornecer suporte à internacionalização. O site é totalmente responsivo e foi projetado para exibir meus projetos e habilidades de forma clara e acessível. O código-fonte está disponível no GitHub, e você pode acessá-lo clicando na imagem abaixo.",
+    
+    "bot-mail-title": "Bot-mail",
+    "bot-mail-text": "Nesse projeto fiz um ensaio de como utilizar uma api de uma LLM para se comportar como um analista de e-mails, ele vê se o e-mail é importante ou não e sugere uma resposta",
+
+    "chordLearner-title": "Chord Learner",
+    "chordLearner-text": "Este é um projeto que fiz por que queria melhorar minhas habilidades de violçao, então, conversando com alguns amigos resolvi fazer um site que pudesse me ajudar de forma simples"
   }
 }

@@ -38,9 +38,16 @@
 
     "jet-title": "JeT",
     "jet-text": "Meet JeT: a Python application created to simplify the organization of games among friends. With just a few clicks, the application randomly distributes participants into teams, automatically forming the teams.",
+    
+    "posts-title": "Posts (TDD)",
     "posts-text": "This project was created with the aim of practicing the TDD method, so that the tests guided the development, ensuring a correct and high-quality development environment.",
 
     "portfolio-title": "Portfolio",
-    "portfolio-text": "This portfolio was developed using ReactJS, with the i18next library integrated to support internationalization. The website is fully responsive and was designed to showcase my projects and skills in a clear and accessible way. The source code is available on GitHub, and you can access it by clicking on the image below."
+    "portfolio-text": "This portfolio was developed using ReactJS, with the i18next library integrated to support internationalization. The website is fully responsive and was designed to showcase my projects and skills in a clear and accessible way. The source code is available on GitHub, and you can access it by clicking on the image below.",
+    
+    "bot-mail-title": "Bot-mail",
+    "bot-mail-text": "In this project, I experimented with using a Large Language Model (LLM) API to act as an email analyst. It determines whether an email is important or not and suggests a response.",
+    "chordLearner-title": "Chord Learner",
+    "chordLearner-text": "This is a project I created because I wanted to improve my programming skills. After talking with some friends, I decided to build a website that could help me in a simple way."
   }
 }
