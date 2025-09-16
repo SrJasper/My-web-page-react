@@ -1,9 +1,5 @@
 export const projects = [
   {
-    projectTitle: "stock",
-    link: "https://stock-manager-front.vercel.app",
-  },
-  {
     projectTitle: "imagine",
     link: "https://www.imagineandaction.com",
   },
@@ -14,6 +10,10 @@ export const projects = [
   {
     projectTitle: "bot-mail",
     link: "https://bot-email-i9b823gul-leonardo-fonsecas-projects-c9dab81e.vercel.app",
+  },
+    {
+    projectTitle: "stock",
+    link: "https://stock-manager-front.vercel.app",
   },
   {
     projectTitle: "portfolio",
