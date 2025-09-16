@@ -23,7 +23,7 @@ export const projects = [
     projectTitle: "posts",
     link: "https://post-tdd-front.vercel.app",
   },
-  // {
+  // { 
   //   projectTitle: "store",
   //   link: "https://loja.leosstore.shop/listar/todos",
   // },
